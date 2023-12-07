@@ -1,0 +1,75 @@
+body{
+    margin: 100px;
+}
+
+.a1{
+    background-color: rgb(243, 215, 243);
+    height: 700px;
+    width: 1063px;
+    margin-top: -5px; 
+}
+.a2{
+    height: 400px;
+    width: 500px;
+    background-color:rgb(231, 219, 231);
+    position: relative;
+    bottom: 850px;
+    left: 340px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+}
+.b1{
+    display: flex;
+    justify-content:flex-start ;
+    align-items:center ;
+    padding: 20px;
+
+}
+.b1 .faq{
+      font-size: x-large;
+      font-weight:bolder;
+      padding-left: 20px;
+      
+}
+.b2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+}
+.b2 svg{
+    padding-left: 20px;
+}
+.a3 p{
+    padding-left: 20px;
+    opacity: 0.6;
+}
+.b3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 50px;
+    font-weight: bolder;
+    justify-content:space-between;
+}
+.b3 svg{
+    position: relative;
+    left: 0px;}
+.b4{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 50px;
+    font-weight: bolder;
+    justify-content:space-between;
+}
+
+.b5{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bolder;
+    padding-left: 50px;
+    justify-content:space-between;
+}
